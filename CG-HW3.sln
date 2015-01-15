@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CG-HW3", "CG-HW3\CG-HW3.vcxproj", "{C2624347-C939-42A3-9ECF-A65B2DC994F9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{19587ED6-8916-4FE0-9AF8-0EDD13176950} = {19587ED6-8916-4FE0-9AF8-0EDD13176950}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestData", "TestData", "{81E31DBD-82F8-4946-995A-B9A580465965}"
+	ProjectSection(SolutionItems) = preProject
+		TestData\Cornell_box.mtl = TestData\Cornell_box.mtl
+		TestData\Cornell_box.obj = TestData\Cornell_box.obj
+		TestData\Ground.mtl = TestData\Ground.mtl
+		TestData\Ground.obj = TestData\Ground.obj
+		TestData\Objects.mtl = TestData\Objects.mtl
+		TestData\Objects.obj = TestData\Objects.obj
+		TestData\SingleTriangle.mtl = TestData\SingleTriangle.mtl
+		TestData\SingleTriangle.obj = TestData\SingleTriangle.obj
+		TestData\TestScene1.light = TestData\TestScene1.light
+		TestData\TestScene1.scene = TestData\TestScene1.scene
+		TestData\TestScene1.view = TestData\TestScene1.view
+		TestData\TestScene2.light = TestData\TestScene2.light
+		TestData\TestScene2.scene = TestData\TestScene2.scene
+		TestData\TestScene2.view = TestData\TestScene2.view
+		TestData\ToySit.mtl = TestData\ToySit.mtl
+		TestData\ToySit.obj = TestData\ToySit.obj
+		TestData\ToyStand.mtl = TestData\ToyStand.mtl
+		TestData\ToyStand.obj = TestData\ToyStand.obj
+		TestData\TwoToys.light = TestData\TwoToys.light
+		TestData\TwoToys.scene = TestData\TwoToys.scene
+		TestData\TwoToys.view = TestData\TwoToys.view
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Loaders", "Loaders\Loaders.vcxproj", "{19587ED6-8916-4FE0-9AF8-0EDD13176950}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2624347-C939-42A3-9ECF-A65B2DC994F9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C2624347-C939-42A3-9ECF-A65B2DC994F9}.Debug|Win32.Build.0 = Debug|Win32
+		{C2624347-C939-42A3-9ECF-A65B2DC994F9}.Release|Win32.ActiveCfg = Release|Win32
+		{C2624347-C939-42A3-9ECF-A65B2DC994F9}.Release|Win32.Build.0 = Release|Win32
+		{19587ED6-8916-4FE0-9AF8-0EDD13176950}.Debug|Win32.ActiveCfg = Debug|Win32
+		{19587ED6-8916-4FE0-9AF8-0EDD13176950}.Debug|Win32.Build.0 = Debug|Win32
+		{19587ED6-8916-4FE0-9AF8-0EDD13176950}.Release|Win32.ActiveCfg = Release|Win32
+		{19587ED6-8916-4FE0-9AF8-0EDD13176950}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
